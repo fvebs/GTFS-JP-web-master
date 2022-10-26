@@ -1,0 +1,106 @@
+@media screen{
+    .only-print{
+        display: none;
+    }
+}
+
+
+header{
+  z-index: 99;
+  position: fixed;
+  nav{
+    position: fixed;
+    a{
+      margin-left: 10px;
+      margin-right: 5px;
+    }
+    img{
+      width: 160px;
+    }
+  }
+}
+
+main{
+  padding-top: 64px;
+  overflow: hidden;
+}
+
+h1{
+  font-size: 30px;
+  margin-top: 1rem;
+}
+
+h2{
+  font-size: 26px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #a89c9c;
+}
+
+h3{
+  font-size: 22px;
+}
+
+h4{
+  font-size: 18px;
+}
+
+h5{
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+}
+
+footer{
+  margin-top: 50px;
+  padding-top: 0;
+  position: relative;
+  li{
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
+
+img{
+  margin: 0 auto;
+  max-width: 80%;
+  display: block;
+}
+
+main{
+  min-height: 90vh;
+}
+
+.eye-catch{
+  margin: 45px 15px 0 15px;
+  h1{
+    text-align: center;
+  }
+}
+
+.buttons-row{
+  margin-top: 40px;
+  a{
+    margin-left: 5px;
+  }
+}
+
+.toppage-discriptions{
+  margin-top: 70px;
+}
+
+.japan-map{
+  width: 75%;
+  margin-top: 40px;
+}
+
+.page-info{
+  padding: 2px 5px;
+  margin: 10px;
+  border: solid 2px #64b5f6;
+  border-radius: 5px;
+}
